@@ -1,0 +1,9 @@
+package ru.anokhin.firstspring.reservations;
+
+public record ReservationSearchFilter(
+        Long roomId,
+        Long userId,
+        Integer pageSize,
+        Integer pageNumber
+) {
+}
